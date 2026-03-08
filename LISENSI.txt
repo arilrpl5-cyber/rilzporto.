@@ -1,0 +1,32 @@
+Lisensi MIT (MIT License)
+
+Hak Cipta © 2025 Asep (GUSTIAWANDEV)
+
+Izin diberikan secara cuma-cuma kepada siapa pun yang memperoleh salinan
+perangkat lunak ini dan file dokumentasi terkait (“Perangkat Lunak”), untuk
+berurusan dengan Perangkat Lunak tanpa batasan, termasuk tanpa batasan hak
+untuk menggunakan, menyalin, mengubah, menggabungkan, menerbitkan,
+mendistribusikan, melisensikan ulang, dan/atau menjual salinan Perangkat
+Lunak, serta mengizinkan orang yang menerima Perangkat Lunak melakukannya,
+dengan tunduk pada ketentuan berikut:
+
+Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus
+disertakan dalam semua salinan atau bagian substansial dari Perangkat Lunak.
+
+PERANGKAT LUNAK INI DISEDIAKAN “SEBAGAIMANA ADANYA”, TANPA JAMINAN DALAM
+BENTUK APA PUN, BAIK TERSURAT MAUPUN TERSIRAT, TERMASUK NAMUN TIDAK
+TERBATAS PADA JAMINAN DIPERDAGANGKAN, KECOCOKAN UNTUK TUJUAN TERTENTU,
+DAN TIDAK MELANGGAR. DALAM KEADAAN APA PUN PENULIS ATAU PEMEGANG HAK CIPTA
+TIDAK BERTANGGUNG JAWAB ATAS KLAIM, KERUSAKAN, ATAU KEWAJIBAN LAIN,
+BAIK DALAM KONTRAK, KESALAHAN, ATAU HAL LAIN YANG TIMBUL DARI, DARI DALAM,
+ATAU BERKAITAN DENGAN PERANGKAT LUNAK ATAU PENGGUNAAN ATAU HAL-HAL LAIN
+YANG BERHUBUNGAN DENGAN PERANGKAT LUNAK.
+
+Informasi Pembuat & Dukungan
+
+Creator: Asep Gustiawan
+Store: https://lynk.id/gustwandev
+
+Follow dan dukung pembuat:
+TikTok: @gustiawan.dev
+Store Lynk: https://lynk.id/gustwandev

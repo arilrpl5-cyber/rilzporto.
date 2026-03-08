@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Website - Frontend Developer & Editor">
+    <title>Portfolio - aril blitz</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="floating-elements">
+            <div class="shape shape1"></div>
+            <div class="shape shape2"></div>
+            <div class="shape shape3"></div>
+            <div class="shape shape4"></div>
+            <div class="shape shape5"></div>
+            <div class="shape shape6"></div>
+            <div class="shape shape7"></div>
+            <div class="shape shape8"></div>
+            <div class="shape shape9"></div>
+            <div class="shape shape10"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content animate-left">
+                <h1>Hi, I'm <span class="name-glow">Aril </span></h1>
+                <div class="subtitle">
+                    <span class="typing-text" id="typingText"></span>
+                    <span class="caret">|</span>
+                </div>
+                <p class="hero-description">
+                    Saya seorang Web Developer dan Editor dengan pengalaman 1 tahun. Khususnya pada Front-End.
+                    Saya dapat membuat Website sederhana seperti ini dan beberapa pengalaman dalam dunia Editing Video dan Photo.
+                    Saya juga dapat melakukan hal dalam dunia Ethical Hacking seperti Penetration Testing.
+                </p>
+
+                <!-- Social Icons -->
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="TikTok">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Telegram">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+
+                <!-- CTA Button -->
+                <a href="#contact" class="btn-primary">
+                    <span>Contact Me</span>
+                </a>
+            </div>
+
+            <div class="hero-image animate-right">
+                <div class="image-wrapper">
+                    <img src="7.png" alt="Profile" class="hero-img" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-content">
+                <div class="about-image animate-right">
+                    <div class="image-box">
+                        <img src="gj.png" alt="About Me" />
+                        <!-- Floating Icons -->
+                        <div class="floating-icon icon-html">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="floating-icon icon-css">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="floating-icon icon-js">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <div class="floating-icon icon-php">
+                            <i class="fab fa-php"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-card animate-left">
+                    <div class="card-content">
+                        <h3>Passionate Developer</h3>
+                        <p>
+                            Saya adalah seorang siswa Rekayasa Perangkat Lunak yang memiliki passion dalam dunia teknologi.
+                            Saya telah belajar berbagai bahasa pemrograman seperti HTML, CSS, JavaScript, dan PHP.
+                            Selain itu, saya juga tertarik dengan dunia keamanan siber dan telah mempelajari penetration testing.
+                        </p>
+
+                        <!-- Skills Grid -->
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <span>HTML</span>
+                                <div class="skill-level">90%</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <span>CSS</span>
+                                <div class="skill-level">85%</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <span>JavaScript</span>
+                                <div class="skill-level">80%</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-php"></i>
+                                </div>
+                                <span>PHP</span>
+                                <div class="skill-level">75%</div>
+                            </div>
+                        </div>
+
+                        <!-- Download CV Button -->
+                        <a href="#" class="btn-download" download>
+                            <i class="fa-solid fa-download"></i>
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="portfolio-container">
+            <h2 class="section-title">Projects</h2>
+
+            <!-- Tab Navigation -->
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="projects">Project</button>
+                <button class="tab-btn" data-tab="certificates">Certificate</button>
+                <button class="tab-btn" data-tab="techstack">Tech Stack</button>
+            </div>
+
+            <!-- Projects Tab -->
+            <div class="tab-content active" id="projects">
+                <div class="projects-grid">
+                    <div class="project-card animate-stagger" data-project="1">
+                        <img src="ecom.png" alt="Project 1" />
+                        <h3>E-Commerce Website</h3>
+                        <p>Modern online shopping platform with payment integration</p>
+                        <div class="card-actions">
+                            <a href="#" class="link-demo">Live Demo</a>
+                            <button class="btn-detail" data-project="1">Detail</button>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-stagger" data-project="2">
+                        <img src="univ.png" alt="Project 2" />
+                        <h3>University Project</h3>
+                        <p>Responsive University Project for creative professionals</p>
+                        <div class="card-actions">
+                            <a href="#" class="link-demo">Live Demo</a>
+                            <button class="btn-detail" data-project="2">Detail</button>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-stagger" data-project="3">
+                        <img src="8.png" alt="Project 3" />
+                        <h3>Dashboard Admin</h3>
+                        <p>Clean and modern admin dashboard with charts</p>
+                        <div class="card-actions">
+                            <a href="#" class="link-demo">Live Demo</a>
+                            <button class="btn-detail" data-project="3">Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="tab-content" id="certificates">
+                <div class="certificates-grid">
+                    <div class="certificate-item animate-stagger">
+                        <img src="1.png" alt="Certificate 1" />
+                    </div>
+                    <div class="certificate-item animate-stagger">
+                        <img src="4.png" alt="Certificate 2" />
+                    </div>
+                    <div class="certificate-item animate-stagger">
+                        <img src="5.png" alt="Certificate 3" />
+                    </div>
+                    <div class="certificate-item animate-stagger">
+                        <img src="6.png" alt="Certificate 4" />
+                    </div>
+                    <div class="certificate-item animate-stagger">
+                        <img src="sc.png" alt="Certificate 5" />
+                    </div>
+                    <div class="certificate-item animate-stagger">
+                        <img src="sv.png" alt="Certificate 6" />
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="tab-content" id="techstack">
+                <div class="techstack-grid">
+                    <div class="tech-item animate-stagger">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="tech-item animate-stagger">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="tech-item animate-stagger">
+                        <i class="fa-brands fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-item animate-stagger">
+                        <i class="fa-brands fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="tech-item animate-stagger">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="tech-item animate-stagger">
+                        <i class="fa-brands fa-react"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="tech-item animate-stagger">
+                        <i class="fa-brands fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="tech-item animate-stagger">
+                        <i class="fa-brands fa-laravel"></i>
+                        <span>Laravel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2 class="section-title">Contact</h2>
+
+            
+            <div class="contact-card animate-up">
+                <h3>Get in Touch</h3>
+                <form id="contactForm" class="contact-form">
+                    <input type="text" name="name" placeholder="Nama" required />
+                    <input type="email" name="email" placeholder="Email" required />
+                    <textarea name="message" placeholder="Pesan" rows="4" required></textarea>
+                    <!-- Social Icons -->
+                    <div class="social-icons">
+                        <a href="https://www.tiktok.com/@rilz_mlbb_" class="social-icon" aria-label="TikTok">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+            <a href="https://www.youtube.com/@arilfunn" class="social-icon" aria-label="youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="https://www.instagram.com/aril_ackerman_/" class="social-icon" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <button type="submit" class="btn-submit">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="modal" id="projectModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content" id="modalContent">
+            <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+            <div class="modal-body">
+                <img src="" alt="Project Detail" id="modalImage" />
+                <h2 id="modalTitle"></h2>
+                <p id="modalDescription"></p>
+                <button class="btn-back" id="btnBack">Kembali</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-overlay" id="lightboxOverlay"></div>
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+            <img src="" alt="Certificate" id="lightboxImage" />
+        </div>
+    </div>
+
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>
